@@ -4,7 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>HUD | Dashboard</title>
-	<link rel="canonical" href="https://seantheme.com" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="" />
 	<meta name="author" content="" />
@@ -25,6 +24,7 @@
 					<span class="bar"></span>
 				</button>
 			</div>
+
 			<div class="mobile-toggler">
 				<button type="button" class="menu-toggler" data-toggle-class="app-sidebar-mobile-toggled"
 					data-toggle-target=".app">
@@ -33,6 +33,7 @@
 					<span class="bar"></span>
 				</button>
 			</div>
+
 			<div class="brand">
 				<a href="index.html" class="brand-logo">
 					<span class="brand-img">
@@ -41,15 +42,16 @@
 					<span class="brand-text">HUD ADMIN</span>
 				</a>
 			</div>
+
 			<div class="menu">
 				<div class="menu-item dropdown">
-					<a href="#" data-toggle-class="app-header-menu-search-toggled" data-toggle-target=".app"
+					<a href="" data-toggle-class="app-header-menu-search-toggled" data-toggle-target=".app"
 						class="menu-link">
 						<div class="menu-icon"><i class="bi bi-search nav-icon"></i></div>
 					</a>
 				</div>
 				<div class="menu-item dropdown dropdown-mobile-full">
-					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+					<a href="" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
 						<div class="menu-icon"><i class="bi bi-grid-3x3-gap nav-icon"></i></div>
 					</a>
 					<div class="dropdown-menu fade dropdown-menu-end w-300px text-center p-0 mt-1">
@@ -201,6 +203,7 @@
 					</div> -->
 				</div>
 			</div>
+
 			<form class="menu-search" method="POST" name="header_search_form">
 				<div class="menu-search-container">
 					<div class="menu-search-icon"><i class="bi bi-search"></i></div>
@@ -214,12 +217,13 @@
 				</div>
 			</form>
 		</div>
+
 		<div id="sidebar" class="app-sidebar">
 			<div class="app-sidebar-content" data-scrollbar="true" data-height="100%">
 				<div class="menu">
 					<div class="menu-header">Navigation</div>
 					<div class="menu-item">
-						<a href="../index.html" class="menu-link">
+						<a href="index.html" class="menu-link">
 							<span class="menu-icon"><i class="bi bi-cpu"></i></span>
 							<span class="menu-text">Dashboard</span>
 						</a>
@@ -319,9 +323,11 @@
 				</div>
 			</div>
 		</div>
+
 		<button class="app-sidebar-mobile-backdrop" data-toggle-target=".app"
 			data-toggle-class="app-sidebar-mobile-toggled"></button>
-		<div id="content" class="app-content">
+		
+			<div id="content" class="app-content">
 			<div class="card">
 				<div class="card-body p-0">
 					<div class="profile">
@@ -393,57 +399,21 @@
 							</div>
 							
 							<div class="profile-content">
-								
 								<ul class="profile-tab nav nav-tabs nav-tabs-v2">
+
 									<li class="nav-item">
 										<a href="#profile-post" class="nav-link active" data-bs-toggle="tab">
-											<div class="nav-field">Posts</div>
-											<div class="nav-value">3</div>
+											<div class="nav-value">Posts</div>
+											<div class="nav-field">~</div>
 										</a>
 									</li>
 
 									<li class="nav-item">
 										<a href="#solo-leveling" class="nav-link" data-bs-toggle="tab">
-											<div class="nav-field">Solo Leveling</div>
-											<div class="nav-value">22 video</div>
+											<div class="nav-value">Solo Leveling</div>
+											<div class="nav-field">22 video</div>
 										</a>
 									</li>
-
-									<li class="nav-item">
-										<a href="#mashle" class="nav-link" data-bs-toggle="tab">
-											<div class="nav-field">Mashle</div>
-											<div class="nav-value">24 video</div>
-										</a>
-									</li>
-									
-									<!-- <li class="nav-item">
-										<a href="#profile-followers" class="nav-link" data-bs-toggle="tab">
-											<div class="nav-field">Followers</div>
-											<div class="nav-value">1.3m</div>
-										</a>
-									</li> -->
-									
-									<!-- <li class="nav-item">
-										<a href="#profile-media" class="nav-link" data-bs-toggle="tab">
-											<div class="nav-field">Photos</div>
-											<div class="nav-value">1,397</div>
-										</a>
-									</li> -->
-									
-									<!-- <li class="nav-item">
-										<a href="#profile-video" class="nav-link" data-bs-toggle="tab">
-											<div class="nav-field">Videos</div>
-											<div class="nav-value">120</div>
-										</a>
-									</li> -->
-									
-									<!-- <li class="nav-item">
-										<a href="#profile-followers" class="nav-link" data-bs-toggle="tab">
-											<div class="nav-field">Following</div>
-											<div class="nav-value">2,592</div>
-										</a>
-									</li> -->
-
 								</ul>
 
 
@@ -452,59 +422,26 @@
 
 										<div class="col-xl-8">
 											<div class="tab-content p-0">
-
-												<div class="tab-pane fade show active" id="post">
-													<!-- Video Start -->
-
-													<!-- <div class="card mb-3">
+												
+												<div class="tab-pane fade show active" id="profile-post">
+													<div class="card mb-3">
 														<div class="card-body">
 															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
+																<a href=""><img src="" alt="" width="50" class="rounded-circle" /></a>
 																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="#" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
+																	<div class="fw-bold">
+																		<a href="" class="text-decoration-none">Intro</a> : 
+																		<a href="" class="text-decoration-none">video</a>
+																	</div>
+																	<div class="small text-white text-opacity-50">Fluat Tune</div>
 																</div>
 															</div>
-															<p>Video Title</p>
 															<div class="ratio ratio-16x9">
 																<video width="100%" controls>
-																	<source src="hud/assets/video/Fluat Tune.mp4" type="video/mp4">
+																	<source src="hud/assets/video/Fluat-Tune.mp4" type="video/mp4">
 																	Your browser does not support the video tag.
 																</video>
 															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
 														</div>
 														<div class="card-arrow">
 															<div class="card-arrow-top-left"></div>
@@ -512,206 +449,7 @@
 															<div class="card-arrow-bottom-left"></div>
 															<div class="card-arrow-bottom-right"></div>
 														</div>
-													</div> -->
-
-													<!-- <div class="card mb-3">
-														<div class="card-body">
-															<div class="d-flex align-items-center mb-3">
-																<a href="#" class="text-decoration-none"><img
-																		src="" alt=""
-																		width="50" class="rounded-circle" /></a>
-																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#"
-																			class="text-decoration-none">KHR</a></div>
-																	<div class="small text-white text-opacity-50">March
-																		4</div>
-																</div>
-															</div>
-															<p>Writing Content</p>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#"
-																		class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i
-																			class="far fa-thumbs-up me-1 d-block d-sm-inline"></i>
-																		Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#"
-																		class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i
-																			class="far fa-comment me-1 d-block d-sm-inline"></i>
-																		Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#"
-																		class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i
-																			class="fa fa-share me-1 d-block d-sm-inline"></i>
-																		Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="../hud/assets/img/user/user.jpg" alt=""
-																	width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div
-																		class="position-relative d-flex align-items-center">
-																		<input type="text"
-																			class="form-control rounded-pill bg-white bg-opacity-15"
-																			style="padding-right: 120px;"
-																			placeholder="Write a comment..." />
-																		<div
-																			class="position-absolute end-0 text-center">
-																			<a href="#"
-																				class="text-white text-opacity-50 me-2"><i
-																					class="fa fa-smile"></i></a>
-																			<a href="#"
-																				class="text-white text-opacity-50 me-2"><i
-																					class="fa fa-camera"></i></a>
-																			<a href="#"
-																				class="text-white text-opacity-50 me-2"><i
-																					class="fa fa-video"></i></a>
-																			<a href="#"
-																				class="text-white text-opacity-50 me-3"><i
-																					class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div> -->
-
-													<!-- <div class="card">
-														<div class="card-body">
-															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img
-																		src="../hud/assets/img/user/profile.jpg" alt=""
-																		width="50" class="rounded-circle" /></a>
-																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#"
-																			class="text-decoration-none">KHR</a> at <a href=""
-																			class="text-decoration-none">Dhaka</a></div>
-																	<div class="small text-white text-opacity-50">May 5
-																	</div>
-																</div>
-															</div>
-															<p>Business Trip</p>
-															<div class="profile-img-list">
-																<div class="profile-img-list-item main"><a
-																		href=""
-																		data-lity class="profile-img-list-link"><span
-																			class="profile-img-content"
-																			style="background-image: url(hud/assets/img/gallery/gallery-5.jpg)"></span></a>
-																</div>
-																<div class="profile-img-list-item main"><a
-																		href=""
-																		data-lity class="profile-img-list-link"><span
-																			class="profile-img-content"
-																			style="background-image: url(hud/assets/img/gallery/gallery-6.jpg)"></span></a>
-																</div>
-																<div class="profile-img-list-item"><a
-																		href=""
-																		data-lity class="profile-img-list-link"><span
-																			class="profile-img-content"
-																			style="background-image: url(hud/assets/img/gallery/gallery-7.jpg)"></span></a>
-																</div>
-																<div class="profile-img-list-item"><a
-																		href=""
-																		data-lity class="profile-img-list-link"><span
-																			class="profile-img-content"
-																			style="background-image: url(hud/assets/img/gallery/gallery-8.jpg)"></span></a>
-																</div>
-																<div class="profile-img-list-item"><a
-																		href=""
-																		data-lity class="profile-img-list-link"><span
-																			class="profile-img-content"
-																			style="background-image: url(hud/assets/img/gallery/gallery-9.jpg)"></span></a>
-																</div>
-																<div class="profile-img-list-item"><a
-																		href=""
-																		data-lity class="profile-img-list-link"><span
-																			class="profile-img-content"
-																			style="background-image: url(hud/assets/img/gallery/gallery-10.jpg)"></span></a>
-																</div>
-															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#"
-																		class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i
-																			class="far fa-thumbs-up me-1 d-block d-sm-inline"></i>
-																		Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#"
-																		class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i
-																			class="far fa-comment me-1 d-block d-sm-inline"></i>
-																		Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#"
-																		class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i
-																			class="fa fa-share me-1 d-block d-sm-inline"></i>
-																		Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="../hud/assets/img/user/user.jpg" alt=""
-																	width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div
-																		class="position-relative d-flex align-items-center">
-																		<input type="text"
-																			class="form-control rounded-pill bg-white bg-opacity-15"
-																			style="padding-right: 120px;"
-																			placeholder="Write a comment..." />
-																		<div
-																			class="position-absolute end-0 text-center">
-																			<a href="#"
-																				class="text-white text-opacity-50 me-2"><i
-																					class="fa fa-smile"></i></a>
-																			<a href="#"
-																				class="text-white text-opacity-50 me-2"><i
-																					class="fa fa-camera"></i></a>
-																			<a href="#"
-																				class="text-white text-opacity-50 me-2"><i
-																					class="fa fa-video"></i></a>
-																			<a href="#"
-																				class="text-white text-opacity-50 me-3"><i
-																					class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div> -->
-
-													<!-- Video End -->
+													</div>
 												</div>
 
 												<!-- Solo Leveling Start -->
@@ -720,52 +458,21 @@
 													<div class="card mb-3">
 														<div class="card-body">
 															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
+																<a href=""><img src="" alt="" width="50" class="rounded-circle" /></a>
 																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="#" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
+																	<div class="fw-bold">
+																		<a href="" class="text-decoration-none">Solo-Leveling</a> : 
+																		<a href="" class="text-decoration-none">Episode-01</a>
+																	</div>
+																	<div class="small text-white text-opacity-50">I'm Used to It</div>
 																</div>
 															</div>
-															<p>Solo-Leveling: Episode-01</p>
 															<div class="ratio ratio-16x9">
 																<video width="100%" controls>
 																	<source src="hud/assets/video/Solo-Leveling/Episode-01.mp4" type="video/mp4">
 																	Your browser does not support the video tag.
 																</video>
 															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
 														</div>
 														<div class="card-arrow">
 															<div class="card-arrow-top-left"></div>
@@ -780,52 +487,21 @@
 													<div class="card mb-3">
 														<div class="card-body">
 															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
+																<a href=""><img src="" alt="" width="50" class="rounded-circle" /></a>
 																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="#" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
+																	<div class="fw-bold">
+																		<a href="" class="text-decoration-none">Solo-Leveling</a> : 
+																		<a href="" class="text-decoration-none">Episode-02</a>
+																	</div>
+																	<div class="small text-white text-opacity-50">If I Had One More Chance</div>
 																</div>
 															</div>
-															<p>Solo-Leveling: Episode-02</p>
 															<div class="ratio ratio-16x9">
 																<video width="100%" controls>
 																	<source src="hud/assets/video/Solo-Leveling/Episode-02.mp4" type="video/mp4">
 																	Your browser does not support the video tag.
 																</video>
 															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
 														</div>
 														<div class="card-arrow">
 															<div class="card-arrow-top-left"></div>
@@ -840,52 +516,21 @@
 													<div class="card mb-3">
 														<div class="card-body">
 															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
+																<a href=""><img src="" alt="" width="50" class="rounded-circle" /></a>
 																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="#" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
+																	<div class="fw-bold">
+																		<a href="" class="text-decoration-none">Solo-Leveling</a> : 
+																		<a href="" class="text-decoration-none">Episode-03</a>
+																	</div>
+																	<div class="small text-white text-opacity-50">It's Like a Game</div>
 																</div>
 															</div>
-															<p>Solo-Leveling: Episode-03</p>
 															<div class="ratio ratio-16x9">
 																<video width="100%" controls>
 																	<source src="hud/assets/video/Solo-Leveling/Episode-03.mp4" type="video/mp4">
 																	Your browser does not support the video tag.
 																</video>
 															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
 														</div>
 														<div class="card-arrow">
 															<div class="card-arrow-top-left"></div>
@@ -900,52 +545,21 @@
 													<div class="card mb-3">
 														<div class="card-body">
 															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
+																<a href=""><img src="" alt="" width="50" class="rounded-circle" /></a>
 																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="#" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
+																	<div class="fw-bold">
+																		<a href="" class="text-decoration-none">Solo-Leveling</a> : 
+																		<a href="" class="text-decoration-none">Episode-04</a>
+																	</div>
+																	<div class="small text-white text-opacity-50">I've Gotta Get Stronger</div>
 																</div>
 															</div>
-															<p>Solo-Leveling: Episode-04</p>
 															<div class="ratio ratio-16x9">
 																<video width="100%" controls>
 																	<source src="hud/assets/video/Solo-Leveling/Episode-04.mp4" type="video/mp4">
 																	Your browser does not support the video tag.
 																</video>
 															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
 														</div>
 														<div class="card-arrow">
 															<div class="card-arrow-top-left"></div>
@@ -960,51 +574,20 @@
 													<div class="card mb-3">
 														<div class="card-body">
 															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
+																<a href=""><img src="" alt="" width="50" class="rounded-circle" /></a>
 																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="#" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
+																	<div class="fw-bold">
+																		<a href="" class="text-decoration-none">Solo-Leveling</a> : 
+																		<a href="" class="text-decoration-none">Episode-05</a>
+																	</div>
+																	<div class="small text-white text-opacity-50">A Pretty Good Deal </div>
 																</div>
 															</div>
-															<p>Solo-Leveling: Episode-05</p>
 															<div class="ratio ratio-16x9">
 																<video width="100%" controls>
 																	<source src="hud/assets/video/Solo-Leveling/Episode-05.mp4" type="video/mp4">
 																	Your browser does not support the video tag.
 																</video>
-															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
 															</div>
 														</div>
 														<div class="card-arrow">
@@ -1020,534 +603,7 @@
 
 												<!-- Mashle Start -->
 
-												<div class="tab-pane fade show active" id="mashle">
-													
-													<!-- Video Start -->
-
-													<div class="card mb-3">
-														<div class="card-body">
-															<div class="d-flex align-items-center mb-3">
-																<a href="#"><img src="" alt="" width="50" class="rounded-circle" /></a>
-																<div class="flex-fill ps-2">
-																	<div class="fw-bold"><a href="#" class="text-decoration-none">KHR</a> is watching <a href="hud/assets/video/Mashle/Episode-01.mp4" class="text-decoration-none">Video</a></div>
-																	<div class="small text-white text-opacity-50">Date & Time</div>
-																</div>
-															</div>
-															<p>Mashle: Episode-01</p>
-															<div class="ratio ratio-16x9">
-																<video width="100%" controls>
-																	<source src="hud/assets/video/Mashle/Episode-01.mp4" type="video/mp4">
-																	Your browser does not support the video tag.
-																</video>
-															</div>
-															<hr class="mb-1" />
-															<div class="row text-center fw-bold">
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-thumbs-up me-1 d-block d-sm-inline"></i> Likes
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="far fa-comment me-1 d-block d-sm-inline"></i> Comment
-																	</a>
-																</div>
-																<div class="col">
-																	<a href="#" class="text-white text-opacity-50 text-decoration-none d-block p-2">
-																		<i class="fa fa-share me-1 d-block d-sm-inline"></i> Share
-																	</a>
-																</div>
-															</div>
-															<hr class="mb-3 mt-1" />
-															<div class="d-flex align-items-center">
-																<img src="" alt="" width="35" class="rounded-circle" />
-																<div class="flex-fill ps-2">
-																	<div class="position-relative d-flex align-items-center">
-																		<input type="text" class="form-control rounded-pill bg-white bg-opacity-15" style="padding-right: 120px;" placeholder="Write a comment..." />
-																		<div class="position-absolute end-0 text-center">
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-smile"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-camera"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-2"><i class="fa fa-video"></i></a>
-																			<a href="#" class="text-white text-opacity-50 me-3"><i class="fa fa-paw"></i></a>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div>
-
-													<!-- Video End -->
-
-												</div>
-
 												<!-- Mashle End -->
-
-
-
-												<!-- <div class="tab-pane fade" id="profile-followers">
-													<div class="list-group">
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-1.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Ethel
-																		Wilkes</a></div>
-																<div class="text-white text-opacity-50 fs-13px">North
-																	Raundspic</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-2.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Shanaya
-																		Hansen</a></div>
-																<div class="text-white text-opacity-50 fs-13px">North
-																	Raundspic</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-3.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">James
-																		Allman</a></div>
-																<div class="text-white text-opacity-50 fs-13px">North
-																	Raundspic</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-4.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Marie
-																		Welsh</a></div>
-																<div class="text-white text-opacity-50 fs-13px">
-																	Crencheporford</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-5.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Lamar
-																		Kirkland</a></div>
-																<div class="text-white text-opacity-50 fs-13px">Prince
-																	Ewoodswan</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-6.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Bentley
-																		Osborne</a></div>
-																<div class="text-white text-opacity-50 fs-13px">Red
-																	Suvern</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-7.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Ollie
-																		Goulding</a></div>
-																<div class="text-white text-opacity-50 fs-13px">Doa
-																</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-8.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Hiba
-																		Calvert</a></div>
-																<div class="text-white text-opacity-50 fs-13px">Stemunds
-																</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-9.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Rivka
-																		Redfern</a></div>
-																<div class="text-white text-opacity-50 fs-13px">Fallnee
-																</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-														<div class="list-group-item d-flex align-items-center">
-															<img src="../hud/assets/img/user/user-10.jpg" alt=""
-																width="50" class="rounded-sm ms-n2" />
-															<div class="flex-fill px-3">
-																<div><a href="#"
-																		class="text-white fw-bold text-decoration-none">Roshni
-																		Fernandez</a></div>
-																<div class="text-white text-opacity-50 fs-13px">Mount
-																	Lerdo</div>
-															</div>
-															<a href="#" class="btn btn-outline-theme">Follow</a>
-														</div>
-													</div>
-													<div class="text-center p-3"><a href="#"
-															class="text-white text-decoration-none">Show more <b
-																class="caret"></b></a></div>
-												</div> -->
-
-												<!-- <div class="tab-pane fade" id="profile-media">
-													
-													<div class="card mb-3">
-														<div class="card-header fw-bold bg-transparent">May 20</div>
-														<div class="card-body">
-															<div class="widget-img-list">
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-1.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-1.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-2.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-2.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-3.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-3.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-4.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-4.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-5.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-5.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-6.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-6.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-7.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-7.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-8.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-8.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-9.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-9.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-10.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-10.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-11.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-11.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-12.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-12.jpg)"></span></a>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div>
-
-													<div class="card">
-														<div class="card-header fw-bold bg-transparent">May 16</div>
-														<div class="card-body">
-															<div class="widget-img-list">
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-13.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-13.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-14.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-14.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-15.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-15.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-16.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-16.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-17.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-17.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-18.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-18.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-19.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-19.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-20.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-20.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-21.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-21.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-22.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-22.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-23.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-23.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-24.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-24.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-25.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-25.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-26.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-26.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-27.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-27.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-28.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-28.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="../hud/../hud/assets/img/gallery/gallery-29.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(../hud/assets/img/gallery/gallery-29.jpg)"></span></a>
-																</div>
-																<div class="widget-img-list-item"><a
-																		href="hud/assets/img/gallery/gallery-30.jpg"
-																		data-lity><span class="img"
-																			style="background-image: url(hud/assets/img/gallery/gallery-30.jpg)"></span></a>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div>
-
-													<div class="text-center p-3">
-														<a href="#" class="text-white text-decoration-none">Show more
-															<b class="caret"></b>
-														</a>
-													</div>
-												</div> -->
-
-												<!-- <div class="tab-pane fade" id="profile-video">
-													<div class="card mb-3">
-														<div class="card-header fw-bold bg-transparent">Collections #1
-														</div>
-														<div class="card-body">
-															<div class="row gx-1">
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="/Hub-Admin/hud/assets/video/video.mp4"
-																		data-lity="">
-																		<img src="vi/RQ5ljyGg-ig/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=5lWkZ-JaEOc"
-																		data-lity="">
-																		<img src="../vi/5lWkZ-JaEOc/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=9ZfN87gSjvI"
-																		data-lity="">
-																		<img src="../vi/9ZfN87gSjvI/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=w2H07DRv2_M"
-																		data-lity="">
-																		<img src="../vi/w2H07DRv2_M/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=PntG8KEVjR8"
-																		data-lity="">
-																		<img src="../vi/PntG8KEVjR8/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=q8kxKvSQ7MI"
-																		data-lity="">
-																		<img src="../vi/q8kxKvSQ7MI/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=cutu3Bw4ep4"
-																		data-lity="">
-																		<img src="../vi/cutu3Bw4ep4/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=gCspUXGrraM"
-																		data-lity="">
-																		<img src="../vi/gCspUXGrraM/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div>
-													<div class="card mb-3">
-														<div class="card-header fw-bold bg-transparent">Collections #2
-														</div>
-														<div class="card-body">
-															<div class="row gx-1">
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=COtpTM1MpAA"
-																		data-lity="">
-																		<img src="../vi/COtpTM1MpAA/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=8NVkGHVOazc"
-																		data-lity="">
-																		<img src="../vi/8NVkGHVOazc/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=QgQ7MWLsw1w"
-																		data-lity="">
-																		<img src="../vi/QgQ7MWLsw1w/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=Dmw0ucCv8aQ"
-																		data-lity="">
-																		<img src="../vi/Dmw0ucCv8aQ/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=r1d7ST2TG2U"
-																		data-lity="">
-																		<img src="../vi/r1d7ST2TG2U/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=WUR-XWBcHvs"
-																		data-lity="">
-																		<img src="vi/WUR-XWBcHvs/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=A7sQ8RWj0Cw"
-																		data-lity="">
-																		<img src="vi/A7sQ8RWj0Cw/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-																<div class="col-md-4 col-sm-6 mb-1">
-																	<a href="https://www.youtube.com/watch?v=IMN2VfiXls4"
-																		data-lity="">
-																		<img src="vi/IMN2VfiXls4/mqdefault.jpg"
-																			alt="" class="d-block w-100">
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="card-arrow">
-															<div class="card-arrow-top-left"></div>
-															<div class="card-arrow-top-right"></div>
-															<div class="card-arrow-bottom-left"></div>
-															<div class="card-arrow-bottom-right"></div>
-														</div>
-													</div>
-												</div> -->
-
 											</div>
 										</div>
 
@@ -1560,6 +616,7 @@
 															<a href="#" class="text-white text-opacity-50"><i
 																	class="fa fa-cog"></i></a>
 														</div>
+														
 														<div class="list-group-item px-3">
 															<div class="text-white text-opacity-50">
 																<small><strong>Trending Worldwide</strong></small>
@@ -1595,61 +652,6 @@
 															<div><small class="text-white text-opacity-50">1.89m
 																	share</small></div>
 														</div>
-
-														<!-- <div class="list-group-item px-3">
-															<div class="fw-bold mb-2">#TrollingForGood</div>
-															<div class="fs-13px mb-1">Be a good Troll and spread some
-																positivity on HUD today.</div>
-															<div><small class="text-white text-opacity-50"><i
-																		class="fa fa-external-link-square-alt"></i>
-																	Promoted by HUD Trolls</small></div>
-														</div> -->
-														<!-- <div class="list-group-item px-3">
-															<div class="text-white text-opacity-50">
-																<small><strong>Trending Worldwide</strong></small></div>
-															<div class="fw-bold mb-2">#CronaOutbreak</div>
-															<div class="fs-13px mb-1">The coronavirus is affecting 210
-																countries around the world and 2 ...</div>
-															<div><small class="text-white text-opacity-50">49.3m
-																	share</small></div>
-														</div> -->
-														
-														<div class="list-group-item px-3">
-															<div class="text-white text-opacity-50">
-																<small><strong>Trending in New York</strong></small>
-															</div>
-															<div class="fw-bold mb-2">#CoronavirusPandemic</div>
-															<a href="#"
-																class="card mb-1 text-white text-decoration-none">
-																<div class="card-body">
-																	<div class="row no-gutters">
-																		<div class="col-md-8">
-																			<div
-																				class="fs-12px text-white text-opacity-50 mt-n1">
-																				Coronavirus</div>
-																			<div
-																				class="h-40px fs-13px overflow-hidden mb-n1">
-																				Coronavirus: US suspends travel from
-																				Europe</div>
-																		</div>
-																		<div class="col-md-4 d-flex">
-																			<div class="h-100 w-100"
-																				style="background: url(hud/assets/img/gallery/news-2.jpg) center; background-size: cover;">
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="card-arrow">
-																	<div class="card-arrow-top-left"></div>
-																	<div class="card-arrow-top-right"></div>
-																	<div class="card-arrow-bottom-left"></div>
-																	<div class="card-arrow-bottom-right"></div>
-																</div>
-															</a>
-															<div><small class="text-white text-opacity-50">821k
-																	share</small></div>
-														</div>
-
 														<a href="#"
 															class="list-group-item list-group-action text-center">
 															Show more
@@ -1680,6 +682,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="app-theme-panel">
 			<div class="app-theme-panel-container">
 				<a href="javascript:;" data-toggle="theme-panel-expand" class="app-theme-toggle-btn"><i
@@ -1746,41 +749,42 @@
 							<div class="card-arrow-bottom-right"></div>
 						</div>
 					</div>
+
 					<div class="small fw-bold text-white mb-1">Theme Cover</div>
 					<div class="card">
 						<div class="card-body p-2">
 							<div class="app-theme-cover">
 								<div class="app-theme-cover-item active">
 									<a href="javascript:;" class="app-theme-cover-link"
-										style="background-image: url(../hud/assets/img/cover/cover-thumb-1.jpg);"
+										style="background-image: url(hud/assets/img/cover/cover-thumb-1.jpg);"
 										data-theme-cover-class="" data-toggle="theme-cover-selector"
 										data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body"
 										data-bs-title="Default">&nbsp;</a>
 								</div>
 								<div class="app-theme-cover-item">
 									<a href="javascript:;" class="app-theme-cover-link"
-										style="background-image: url(../hud/assets/img/cover/cover-thumb-2.jpg);"
+										style="background-image: url(hud/assets/img/cover/cover-thumb-2.jpg);"
 										data-theme-cover-class="bg-cover-2" data-toggle="theme-cover-selector"
 										data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body"
 										data-bs-title="Cover 2">&nbsp;</a>
 								</div>
 								<div class="app-theme-cover-item">
 									<a href="javascript:;" class="app-theme-cover-link"
-										style="background-image: url(../hud/assets/img/cover/cover-thumb-3.jpg);"
+										style="background-image: url(hud/assets/img/cover/cover-thumb-3.jpg);"
 										data-theme-cover-class="bg-cover-3" data-toggle="theme-cover-selector"
 										data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body"
 										data-bs-title="Cover 3">&nbsp;</a>
 								</div>
 								<div class="app-theme-cover-item">
 									<a href="javascript:;" class="app-theme-cover-link"
-										style="background-image: url(../hud/assets/img/cover/cover-thumb-4.jpg);"
+										style="background-image: url(hud/assets/img/cover/cover-thumb-4.jpg);"
 										data-theme-cover-class="bg-cover-4" data-toggle="theme-cover-selector"
 										data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body"
 										data-bs-title="Cover 4">&nbsp;</a>
 								</div>
 								<div class="app-theme-cover-item">
 									<a href="javascript:;" class="app-theme-cover-link"
-										style="background-image: url(../hud/assets/img/cover/cover-thumb-5.jpg);"
+										style="background-image: url(hud/assets/img/cover/cover-thumb-5.jpg);"
 										data-theme-cover-class="bg-cover-5" data-toggle="theme-cover-selector"
 										data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body"
 										data-bs-title="Cover 5">&nbsp;</a>
@@ -1797,8 +801,10 @@
 				</div>
 			</div>
 		</div>
-		<a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
+
+		<a href="" data-toggle="scroll-to-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
 	</div>
+
 	<!-- <div id="app" class="app">
 		<div id="header" class="app-header">
 			<div class="desktop-toggler">
@@ -2986,6 +1992,7 @@
 		</div>
 		<a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
 	</div> -->
+	
 	<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 	<script src="hud/assets/js/vendor.min.js" type="c55b4836ad18ae828440a456-text/javascript"></script>
 	<script src="hud/assets/js/app.min.js" type="c55b4836ad18ae828440a456-text/javascript"></script>
@@ -3014,5 +2021,4 @@
 				Downloader</a></font>
 	</center> -->
 </body>
-
 </html>
