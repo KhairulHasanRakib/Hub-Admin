@@ -3,7 +3,7 @@ Add-Type -AssemblyName System.Drawing
 
 # Create Form
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "🌤️ Weather Dashboard"
+$form.Text = "Weather Dashboard"
 $form.Width = 500
 $form.Height = 400
 $form.StartPosition = "CenterScreen"
