@@ -12,24 +12,16 @@ $windSpeed = $weatherData.current.wind_speed_10m
 $humidity = $weatherData.current.relative_humidity_2m
 
 # ASCII Art Header
-$ascii = @"
-┏┓┏━┓┏┓━━━━━━━━━━━━━━━━┏┓━━━━━┏┓━┏┓━━━━━━━━━━━━━━━━━━━━━━┏━━━┓━━━━━┏┓━━━━┏┓━━
-┃┃┃┏┛┃┃━━━━━━━━━━━━━━━━┃┃━━━━━┃┃━┃┃━━━━━━━━━━━━━━━━━━━━━━┃┏━┓┃━━━━━┃┃━━━━┃┃━━
-┃┗┛┛━┃┗━┓┏━━┓━┏┓┏━┓┏┓┏┓┃┃━━━━━┃┗━┛┃┏━━┓━┏━━┓┏━━┓━┏━┓━━━━━┃┗━┛┃┏━━┓━┃┃┏┓┏┓┃┗━┓
-┃┏┓┃━┃┏┓┃┗━┓┃━┣┫┃┏┛┃┃┃┃┃┃━━━━━┃┏━┓┃┗━┓┃━┃━━┫┗━┓┃━┃┏┓┓━━━━┃┏┓┏┛┗━┓┃━┃┗┛┛┣┫┃┏┓┃
-┃┃┃┗┓┃┃┃┃┃┗┛┗┓┃┃┃┃━┃┗┛┃┃┗┓━━━━┃┃━┃┃┃┗┛┗┓┣━━┃┃┗┛┗┓┃┃┃┃━━━━┃┃┃┗┓┃┗┛┗┓┃┏┓┓┃┃┃┗┛┃
-┗┛┗━┛┗┛┗┛┗━━━┛┗┛┗┛━┗━━┛┗━┛━━━━┗┛━┗┛┗━━━┛┗━━┛┗━━━┛┗┛┗┛━━━━┗┛┗━┛┗━━━┛┗┛┗┛┗┛┗━━┛
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-"@
+$ascii = @"Khairul Hasan Rakib"@
 
 # Display Dashboard
 Write-Host "`n$ascii`n" -ForegroundColor Cyan
-Write-Host "📅 Day: $day" -ForegroundColor Green
-Write-Host "📆 Date: $date" -ForegroundColor Yellow
-Write-Host "⏰ Time: $time" -ForegroundColor Magenta
-Write-Host "🌡 Temperature: $temperature°C" -ForegroundColor Blue
-Write-Host "💨 Wind Speed: $windSpeed m/s" -ForegroundColor Cyan
-Write-Host "💧 Humidity: $humidity%" -ForegroundColor Green
+Write-Host "Day: $day" -ForegroundColor Green
+Write-Host "Date: $date" -ForegroundColor Yellow
+Write-Host "Time: $time" -ForegroundColor Magenta
+Write-Host "Temperature: $temperature°C" -ForegroundColor Blue
+Write-Host "Wind Speed: $windSpeed m/s" -ForegroundColor Cyan
+Write-Host "Humidity: $humidity%" -ForegroundColor Green
 Write-Host "`nRefreshing every 10 seconds... Press Ctrl+C to exit.`n"
 
 # Auto Refresh
@@ -37,10 +29,10 @@ while ($true) {
     Start-Sleep -Seconds 10
     Clear-Host
     Write-Host "`n$ascii`n" -ForegroundColor Cyan
-    Write-Host "📅 Day: $day" -ForegroundColor Green
-    Write-Host "📆 Date: $date" -ForegroundColor Yellow
-    Write-Host "⏰ Time: $(Get-Date -Format 'hh:mm tt')" -ForegroundColor Magenta
-    Write-Host "🌡 Temperature: $temperature°C" -ForegroundColor Blue
-    Write-Host "💨 Wind Speed: $windSpeed m/s" -ForegroundColor Cyan
-    Write-Host "💧 Humidity: $humidity%" -ForegroundColor Green
+    Write-Host "Day: $day" -ForegroundColor Green
+    Write-Host "Date: $date" -ForegroundColor Yellow
+    Write-Host "Time: $(Get-Date -Format 'hh:mm:ss tt')" -ForegroundColor Magenta
+    Write-Host "Temperature: $temperature°C" -ForegroundColor Blue
+    Write-Host "Wind Speed: $windSpeed m/s" -ForegroundColor Cyan
+    Write-Host "Humidity: $humidity%" -ForegroundColor Green
 }
