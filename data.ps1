@@ -22,11 +22,11 @@ Write-Host "Time: $time" -ForegroundColor Magenta
 Write-Host "Temperature: $temperature°C" -ForegroundColor Blue
 Write-Host "Wind Speed: $windSpeed m/s" -ForegroundColor Cyan
 Write-Host "Humidity: $humidity%" -ForegroundColor Green
-Write-Host "`nRefreshing every 10 seconds... Press Ctrl+C to exit.`n"
+Write-Host "`nRefreshing every 1 seconds... Press Ctrl+C to exit.`n"
 
 # Auto Refresh
 while ($true) {
-    Start-Sleep -Seconds 10
+    Start-Sleep -Seconds 1
     Clear-Host
     Write-Host "`n$ascii`n" -ForegroundColor Cyan
     Write-Host "Day: $day" -ForegroundColor Green
