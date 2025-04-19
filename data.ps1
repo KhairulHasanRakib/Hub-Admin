@@ -12,7 +12,7 @@ $windSpeed = $weatherData.current.wind_speed_10m
 $humidity = $weatherData.current.relative_humidity_2m
 
 # ASCII Art Header
-$ascii = @"Khairul Hasan Rakib"@
+# $ascii = @"Khairul Hasan Rakib"@
 
 # Display Dashboard
 Write-Host "`n$ascii`n" -ForegroundColor Cyan
