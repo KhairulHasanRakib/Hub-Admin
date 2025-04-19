@@ -15,7 +15,7 @@ $humidity = $weatherData.current.relative_humidity_2m
 # $ascii = @"Khairul Hasan Rakib"@
 
 # Display Dashboard
-Write-Host "`n$ascii`n" -ForegroundColor Cyan
+# Write-Host "`n$ascii`n" -ForegroundColor Cyan
 Write-Host "Day: $day" -ForegroundColor Green
 Write-Host "Date: $date" -ForegroundColor Yellow
 Write-Host "Time: $time" -ForegroundColor Magenta
@@ -28,7 +28,7 @@ Write-Host "`nRefreshing every 1 seconds... Press Ctrl+C to exit.`n"
 while ($true) {
     Start-Sleep -Seconds 1
     Clear-Host
-    Write-Host "`n$ascii`n" -ForegroundColor Cyan
+    # Write-Host "`n$ascii`n" -ForegroundColor Cyan
     Write-Host "Day: $day" -ForegroundColor Green
     Write-Host "Date: $date" -ForegroundColor Yellow
     Write-Host "Time: $(Get-Date -Format 'hh:mm:ss tt')" -ForegroundColor Magenta
