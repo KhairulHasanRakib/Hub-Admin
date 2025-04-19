@@ -2,13 +2,18 @@
 mode con: cols=80 lines=25
 
 # Function to Center Text Based on Screen Width
+# function Center-Text {
+#     param ($text)
+#     $screenWidth = $Host.UI.RawUI.WindowSize.Width
+#     $padding = ($screenWidth - $text.Length) / 2
+#     return (" " * [Math]::Max($padding, 0)) + $text
+# }
 function Center-Text {
     param ($text)
     $screenWidth = $Host.UI.RawUI.WindowSize.Width
-    $padding = ($screenWidth - $text.Length) / 2
-    return (" " * [Math]::Max($padding, 0)) + $text
+    $padding = [Math]::Max(($screenWidth - $text.Length) / 2, 0)
+    return (" " * $padding) + $text + (" " * $padding)
 }
-
 # Clear Console Screen
 Clear-Host
 
