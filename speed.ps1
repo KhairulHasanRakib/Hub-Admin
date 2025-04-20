@@ -74,7 +74,17 @@ $LogEntry = "[$Timestamp] Download: $DownloadMbps Mbps, Upload: $UploadMbps Mbps
 Add-Content -Path $LogFile -Value $LogEntry
 
 # Prompt to rerun
-$reRun = Read-Host "Do you want to run the test again? (Y/N)"
-if ($reRun -match '^(Y|y)$') {
-    & "$PSCommandPath"
-}
+# $reRun = Read-Host "Do you want to run the test again? (Y/N)"
+# if ($reRun -match '^(Y|y)$') {
+#     & "$PSCommandPath"
+# }
+
+# 🌀 Rerun loop
+do {
+    Run-Speedtest
+    $choice = Read-Host "Do you want to run the test again? (Y/N)"
+    if ($choice -match '^(Y|y)$') {
+        iex (irm hub.on-fleek.app/speed.ps1)
+        break
+    }
+} while ($false)
