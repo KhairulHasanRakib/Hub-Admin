@@ -29,10 +29,21 @@ $windSpeed = $weatherData.current.wind_speed_10m
 $humidity = $weatherData.current.relative_humidity_2m
 
 # ASCII Art Header
-# $ascii = @"Khairul Hasan Rakib"@
+$ascii = @"
+ _  ___           _            _   _   _                       
+| |/ / |__   __ _(_)_ __ _   _| | | | | | __ _ ___  __ _ _ __  
+| ' /| '_ \ / _` | | '__| | | | | | |_| |/ _` / __|/ _` | '_ \ 
+| . \| | | | (_| | | |  | |_| | | |  _  | (_| \__ \ (_| | | | |
+|_|\_\_| |_|\__,_|_|_|   \__,_|_| |_| |_|\__,_|___/\__,_|_| |_|
+|  _ \ __ _| | _(_) |__                                        
+| |_) / _` | |/ / | '_ \                                       
+|  _ < (_| |   <| | |_) |                                      
+|_| \_\__,_|_|\_\_|_.__/                                       
+
+"@
 
 # Display Dashboard
-# Write-Host "`n$ascii`n" -ForegroundColor Cyan
+Write-Host "`n$ascii`n" -ForegroundColor Cyan
 Write-Host "Day: $day" -ForegroundColor Green
 Write-Host "Date: $date" -ForegroundColor Yellow
 Write-Host "Time: $time" -ForegroundColor Magenta
@@ -45,7 +56,7 @@ Write-Host "`nRefreshing every 1 seconds... Press Ctrl+C to exit.`n"
 while ($true) {
     Start-Sleep -Seconds 1
     Clear-Host
-    # Write-Host "`n$ascii`n" -ForegroundColor Cyan
+    Write-Host "`n$ascii`n" -ForegroundColor Cyan
     Write-Host "Day: $day" -ForegroundColor Green
     Write-Host "Date: $date" -ForegroundColor Yellow
     Write-Host "Time: $(Get-Date -Format 'hh:mm:ss tt')" -ForegroundColor Magenta
