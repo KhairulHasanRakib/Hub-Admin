@@ -19,6 +19,10 @@ function Run-Speedtest {
     } else {
         Write-Host "✅ Speedtest CLI found!" -ForegroundColor Green
     }
+    Clear-Host
+    write-host " ================================= " -ForegroundColor Magenta
+    Write-Host " ⚡ Internet Speed Test Script ⚡ " -ForegroundColor Cyan
+    write-host " ================================= " -ForegroundColor Magenta
 
     Write-Host "`n🌐 Running Speedtest..." -ForegroundColor Cyan
     $env:SPEEDTEST_ACCEPT_LICENSE = "true"

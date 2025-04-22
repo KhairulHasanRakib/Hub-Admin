@@ -1,10 +1,3 @@
-<#
-.SYNOPSIS
-    Internet Speed Test Script with Auto-Installer, License Acceptance, Logging, and Retry Prompt
-.AUTHOR
-    Microsoft Copilot (Enhanced by ChatGPT)
-#>
-
 function Run-Speedtest {
     # Define paths and URLs
     $SpeedtestFolder = "$env:ProgramFiles\Speedtest"
@@ -33,6 +26,12 @@ function Run-Speedtest {
     } else {
         Write-Host "`n✅ Speedtest CLI found!" -ForegroundColor Green
     }
+    
+    Clear-Host
+    
+    write-host " ================================= " -ForegroundColor Magenta
+    Write-Host " ⚡ Internet Speed Test Script ⚡ " -ForegroundColor Cyan
+    write-host " ================================= " -ForegroundColor Magenta
 
     # Run Speed Test with license acceptance
     Write-Host "`n🌐 Running Speedtest..." -ForegroundColor Cyan
