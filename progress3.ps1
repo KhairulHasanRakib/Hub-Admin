@@ -27,7 +27,7 @@ function Show-Download {
     for ($i = 0; $i -le 100; $i += 10) {
         $filled = "█" * ($i / 2)
         $empty = "░" * ((100 - $i) / 2)
-        $progress = "|{0}{1}| {2,3}%" -f $filled, $empty, $i
+        $progress = "|" + $filled + $empty + "| " + ("{0,3}" -f $i) + "%"
         Write-Host "$progress 🟦 272.2 MB • 1.3 MB/s" -ForegroundColor Cyan
         Start-Sleep -Milliseconds 250
     }
@@ -50,7 +50,9 @@ function Show-Installing {
     Show-Line "🔧 Running dpkg ..." Cyan
     for ($j = 0; $j -le 100; $j += 10) {
         $bar = ("█" * ($j / 2)) + ("░" * ((100 - $j) / 2))
-        $progress = "|{0}| {1,3}% ⏱️  00:00:{2} • {1}/100" -f $bar, $j, [int]($j / 10)
+        $percent = "{0,3}" -f $j
+        $time = "00:00:{0}" -f ([int]($j / 10))
+        $progress = "|$bar| $percent% ⏱️  $time • $j/100"
         Write-Host $progress -ForegroundColor DarkYellow
         Start-Sleep -Milliseconds 250
     }
